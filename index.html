@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Journal</title>
+
+    <!-- Link to Bootstrap stylesheet (for buttons) -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- Link to personal stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- A centered container housing the journal elements -->
+    <div class="journal-container">
+      <h1>Daily Journal</h1>
+      <!-- The journal itself -->
+      <div id="journal">
+        <!-- Date entry field -->
+        <div class="journal__entry">
+          <label class="journal__label" for="journalDate"
+            >Date of entry:
+          </label>
+          <input type="date" name="journalDate" id="journalDate" />
+        </div>
+
+        <!-- Entry field for concepts covered in date's course -->
+        <div class="journal__entry">
+          <label class="journal__label" for="conceptsCovered"
+            >Concepts covered:</label
+          >
+          <input type="text" name="conceptsCovered" id="conceptsCovered" />
+        </div>
+
+        <!-- Entry field for main journal entry -->
+        <div class="journal__entry">
+          <label class="journal__label" for="journalEntry"
+            >Journal entry:
+          </label>
+          <textarea
+            name="journalEntry"
+            id="journalEntry"
+            cols="30"
+            rows="3"
+          ></textarea>
+        </div>
+
+        <!-- Mood select (dropdown menu) -->
+        <div class="journal__entry">
+          <label class="journal__label" for="journalMood"
+            >Mood for the day:
+          </label>
+          <select name="journalMood" id="journalMood">
+            <option value="0">--Select a mood--</option>
+            <option value="1">Happy</option>
+            <option value="2">Angry</option>
+            <option value="3">Depressy</option>
+            <option value="4">Confusey</option>
+            <option value="5">Okayy</option>
+            <option value="6">Bored</option>
+          </select>
+        </div>
+
+        <!-- Submit button, currently does nothing -->
+        <button type="button" class="btn btn-primary btn-lg">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.journal-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.journal__label{
+    padding: 1em;
+}
+
+.journal__entry{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-button{
+    margin: 2em;
+}
