@@ -23,53 +23,59 @@
       <h1>Daily Journal</h1>
       <!-- The journal itself -->
       <div id="journal">
-        <!-- Date entry field -->
-        <div class="journal__entry">
-          <label class="journal__label" for="journalDate"
-            >Date of entry:
-          </label>
-          <input type="date" name="journalDate" id="journalDate" />
-        </div>
+        <form action="">
+          <!-- Date entry field -->
+          <div class="journal__entry">
+            <label class="journal__label" for="journalDate"
+              >Date of entry:
+            </label>
+            <input type="date" name="journalDate" id="journalDate" />
+          </div>
 
-        <!-- Entry field for concepts covered in date's course -->
-        <div class="journal__entry">
-          <label class="journal__label" for="conceptsCovered"
-            >Concepts covered:</label
-          >
-          <input type="text" name="conceptsCovered" id="conceptsCovered" />
-        </div>
+          <!-- Entry field for concepts covered in date's course -->
+          <div class="journal__entry">
+            <label class="journal__label" for="conceptsCovered"
+              >Concepts covered:</label
+            >
+            <input type="text" name="conceptsCovered" id="conceptsCovered" />
+          </div>
 
-        <!-- Entry field for main journal entry -->
-        <div class="journal__entry">
-          <label class="journal__label" for="journalEntry"
-            >Journal entry:
-          </label>
-          <textarea
-            name="journalEntry"
-            id="journalEntry"
-            cols="30"
-            rows="3"
-          ></textarea>
-        </div>
+          <!-- Entry field for main journal entry -->
+          <div class="journal__entry">
+            <label class="journal__label" for="journalEntry"
+              >Journal entry:
+            </label>
+            <textarea
+              name="journalEntry"
+              id="journalEntry"
+              cols="30"
+              rows="3"
+            ></textarea>
+          </div>
 
-        <!-- Mood select (dropdown menu) -->
-        <div class="journal__entry">
-          <label class="journal__label" for="journalMood"
-            >Mood for the day:
-          </label>
-          <select name="journalMood" id="journalMood">
-            <option value="0">--Select a mood--</option>
-            <option value="1">Happy</option>
-            <option value="2">Angry</option>
-            <option value="3">Depressy</option>
-            <option value="4">Confusey</option>
-            <option value="5">Okayy</option>
-            <option value="6">Bored</option>
-          </select>
-        </div>
+          <!-- Mood select (dropdown menu) -->
+          <div class="journal__entry">
+            <label class="journal__label" for="journalMood"
+              >Mood for the day:
+            </label>
+            <select name="journalMood" id="journalMood">
+              <option value="0">--Select a mood--</option>
+              <option value="1">Happy</option>
+              <option value="2">Angry</option>
+              <option value="3">Depressy</option>
+              <option value="4">Confusey</option>
+              <option value="5">Okayy</option>
+              <option value="6">Bored</option>
+            </select>
+          </div>
 
-        <!-- Submit button, currently does nothing -->
-        <button type="button" class="btn btn-primary btn-lg">Record Entry</button>
+          <!-- Submit button, currently does nothing -->
+        </form>
+        <button type="button" class="btn btn-primary btn-lg">
+          Record Entry
+        </button>
+
+        <script src="journal.js"></script>
       </div>
     </div>
   </body>
