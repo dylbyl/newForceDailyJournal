@@ -1,0 +1,39 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "date": "2020-04-29",
+      "conceptsCovered": "Building an API and Fetching Data",
+      "entry": "We had a lab day in which I reviewed how to build an API and appropriately fetch data stored there",
+      "mood": "Happy"
+    },
+    {
+      "date": "2020-04-27",
+      "conceptsCovered": "Printing to the DOM",
+      "entry": "We had a review in which we re-discussed printing to the DOM using Event Listeners",
+      "mood": "Okayy",
+      "id": 2
+    },
+    {
+      "date": "2020-04-22",
+      "conceptsCovered": "Event Listeners",
+      "entry": "We covered Event Listeners, which add functionality to things like buttons and links",
+      "mood": "Depressy",
+      "id": 3
+    },
+    {
+      "date": "2020-04-13",
+      "conceptsCovered": "JavaScript and Objects",
+      "entry": "We covered the beginning chapters of Book 2, and reviewed how to create and navigate Objects in JavaScript",
+      "mood": "Okayy",
+      "id": 4
+    },
+    {
+      "date": "2020-04-13",
+      "conceptsCovered": "JavaScript and Objects",
+      "entry": "We covered the beginning chapters of Book 2, and reviewed how to create and navigate Objects in JavaScript",
+      "mood": "Okayy",
+      "id": 5
+    }
+  ]
+}

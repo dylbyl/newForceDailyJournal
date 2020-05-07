@@ -59,19 +59,19 @@
               >Mood for the day:
             </label>
             <select name="journalMood" id="journalMood">
-              <option value="0">--Select a mood--</option>
-              <option value="1">Happy</option>
-              <option value="2">Angry</option>
-              <option value="3">Depressy</option>
-              <option value="4">Confusey</option>
-              <option value="5">Okayy</option>
-              <option value="6">Bored</option>
+              <option value="None selected">--Select a mood--</option>
+              <option value="Happy">Happy</option>
+              <option value="Angry">Angry</option>
+              <option value="Depressy">Depressy</option>
+              <option value="Confusey">Confusey</option>
+              <option value="Okayy">Okayy</option>
+              <option value="Bored">Bored</option>
             </select>
           </div>
 
           <!-- Submit button, currently does nothing -->
         </form>
-        <button type="button" class="btn btn-primary btn-lg">
+        <button type="button" id="submit-button" class="btn btn-primary btn-lg">
           Record Entry
         </button>
         
@@ -80,6 +80,6 @@
       </div>
     </div>
     
-    <script src="journal.js"></script>
+    <script type="module" src="/src/scripts/journal.js"></script>
   </body>
 </html>
